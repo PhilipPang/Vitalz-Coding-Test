@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --radius: 16px;
+}
+
+.card {
+  @apply bg-white rounded-2xl shadow-soft border border-gray-100;
+}
+.card-pad {
+  @apply p-4 sm:p-6;
+}
+
+.badge {
+  @apply inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-gray-100 text-gray-700;
+}
+
+.skeleton {
+  @apply animate-pulse bg-gray-200 rounded-lg;
+}
